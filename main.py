@@ -80,7 +80,7 @@ async def sonnet_image(ctx, *args):
 async def send_msg(ctx, message):
     if len(message) > 2000:
         write_temp(message)
-        await ctx.send("Output was too long for a Discord message. I've attached a file containing the text:", file=discord.File("discord_bot/temp.txt"))
+        await ctx.send("Output was too long for a Discord message. I've attached a file containing the text:", file=discord.File("temp.txt"))
     else:
         await ctx.send(message)
 
