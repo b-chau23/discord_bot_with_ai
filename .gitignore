@@ -1,0 +1,4 @@
+.env
+__pycache__/claude_antrhopic.cpython-310.pyc
+__pycache__/gpt.cpython-310.pyc
+__pycache__/gpt.cpython-312.pyc
