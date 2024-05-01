@@ -1,4 +1,5 @@
 .env
-__pycache__/claude_antrhopic.cpython-310.pyc
-__pycache__/gpt.cpython-310.pyc
-__pycache__/gpt.cpython-312.pyc
+gpt_logs.txt
+claude_logs.txt
+temp.txt
+__pycache__
